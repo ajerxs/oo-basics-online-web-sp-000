@@ -10,8 +10,8 @@ class Shoe
   def cobble
     if self.condition == "old"
       self.condition = "new"
-      puts "Your shoe is as good as new!"
     end
+    puts "Your shoe is as good as new!"
   end
 
 end
