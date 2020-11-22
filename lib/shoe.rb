@@ -8,12 +8,8 @@ class Shoe
   end
 
   def cobble(condition)
-    self.condition do |shoe|
-      if shoe /= "new"
-        puts "Your shoe is as good as new!"
-        shoe = "new"
-      end
-    end
-  end
+    if @condition /= "new"
+      puts "Your shoe is as good as new!"
+      @condition = "new"
 
 end
