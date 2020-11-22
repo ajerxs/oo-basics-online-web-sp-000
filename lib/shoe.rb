@@ -7,10 +7,10 @@ class Shoe
   end
 
   def cobble(condition)
-    self.condition do |fix|
-      if self.condition /= "new"
+    self.condition do |shoe|
+      if shoe /= "new"
         puts "Your shoe is as good as new!"
-        self.condition = "new"
+        shoe = "new"
       end
     end
   end
